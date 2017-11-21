@@ -45,3 +45,7 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+*.json
+platforms/browser/cordova/node_modules/cordova-serve/node_modules/chalk/readme.md
+*.md
+platforms/browser/cordova/node_modules/cordova-serve/node_modules/compression/node_modules/accepts/node_modules/negotiator/lib/charset.js
