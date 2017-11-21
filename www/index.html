@@ -58,7 +58,11 @@
 
 <!--    <div id="map"></div>-->
 
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhqFQF2QvuleiNksrQltbkCWEip44uNqo"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhqFQF2QvuleiNksrQltbkCWEip44uNqo&callback=initMap"
+    async defer></script>
+    
+<!--  Removing the callback allows initMap to be successfully called via JQ Mobile pageinit listener  -->
+<!--    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhqFQF2QvuleiNksrQltbkCWEip44uNqo"></script>-->
     
     
 </body>
