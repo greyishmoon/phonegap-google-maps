@@ -12,7 +12,7 @@ function initMap() {
 
     setTimeout(function () {
         google.maps.event.trigger(map, 'resize');
-    }, 500);
+    }, 1000);
 }
 
 
